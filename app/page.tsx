@@ -8,6 +8,9 @@ import { Card } from "@/components/ui/card"
 import Link from "next/link"
 import { PersonaSelector, personas, type AIPersona } from "@/components/persona-selector"
 import { ThemeSelector, themes, type AestheticTheme } from "@/components/theme-selector"
+import { WeatherService, MusicService, AIService } from "@/lib/api"
+import { localStorageManager } from "@/lib/storage"
+import type { WeatherData, MusicData, AIResponse } from "@/lib/types"
 
 const moods = [
   { emoji: "✨", name: "Inspired", color: "from-purple-400 to-pink-400", bg: "bg-purple-50" },

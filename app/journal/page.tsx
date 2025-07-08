@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ArrowLeft, Plus, Type, Palette, Sticker, Save, Download, Trash2, BookOpen, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button"
